@@ -1,6 +1,6 @@
 # Analyses of indegree and PageRank
 
-#1 Gender differences across networks----
+#1 Gender differences across network domains/types ----
 ##1.1 Indegree ----
 c( mean = mean(Indiv.indicator.all$Degree.in) ,
    var = var(Indiv.indicator.all$Degree.in) , 
@@ -288,7 +288,7 @@ Pre_pagerank_GNet2_1_d <- precis(Model_pagerank_GNet2_1_d, depth = 3, prob = 0.9
                                  pars = c("bNet", "bGNet", "bA", "bIn", "bR", "bK", "bM", "V_bar"))
 Pre_pagerank_GNet2_1_d
 
-#2 Gender differences stratified by age cohorts ----
+#2 Gender differences stratified by network domains and age cohorts ----
 ##2.1 Indegree ----
 ###2.1.1 Total ----
 {set.seed(123)
@@ -427,7 +427,7 @@ Pre_pagerank_GNet2_2_d <- precis(Model_pagerank_GNet2_2_d, depth = 3, prob = 0.9
                                  pars = c("bANet", "bGANet", "bIn", "bR", "bK", "bM", "V_bar"))
 Pre_pagerank_GNet2_2_d
 
-#3 Gender differences stratified by residence ----
+#3 Gender differences stratified by network domains and residence patterns ----
 ##3.1 Indegree ----
 ###3.1.1 Total ----
 {set.seed(123)
@@ -566,7 +566,7 @@ Pre_pagerank_GNet2_3_d <- precis(Model_pagerank_GNet2_3_d, depth = 3, prob = 0.9
                                  pars = c("bRNet", "bGRNet", "bA", "bIn", "bK", "bM", "V_bar"))
 Pre_pagerank_GNet2_3_d
 
-#4 Gender differences stratified by kinship system ----
+#4 Gender differences stratified by network domains and kinship systems ----
 ##4.1 Indegree ----
 ###4.1.1 Total ----
 {set.seed(123)
@@ -705,7 +705,7 @@ Pre_pagerank_GNet2_4_d <- precis(Model_pagerank_GNet2_4_d, depth = 3, prob = 0.9
                                  pars = c("bKNet", "bGKNet", "bA", "bIn", "bR", "bM", "V_bar"))
 Pre_pagerank_GNet2_4_d
 
-#5 How market participation shape gender differences ----
+#5 How market participation shape gender differences across network domains ----
 ##5.1 Indegree ----
 ###5.1.1 Total ----
 {set.seed(123)
