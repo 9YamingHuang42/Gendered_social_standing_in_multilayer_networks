@@ -12,7 +12,7 @@ library(elevatr)
 library(raster)
 library(ggrepel)
 library(ggdist)
-library(ggh4x)
+library(ggh4x) 
 
 #1 Dag ----
 Dag <-  
